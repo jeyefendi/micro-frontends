@@ -2,7 +2,7 @@ import React from 'react'
 
 const styles = {
   navbar: {
-    height: '66px',
+    height: '5em',
     position: 'absolute',
     top: 0,
     left: 0,
@@ -11,12 +11,14 @@ const styles = {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    background: '#1a237e',
-    color: '#fff',
+    background: '#EFD81A',
+    color: '#000',
     boxShadow: 'rgb(0 0 0 / 54%) 0px 2px 11px 4px',
   },
   h2: {
     margin: 0,
+    fontWeight: 900,
+    fontSize: 32
   },
 }
 

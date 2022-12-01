@@ -44,14 +44,14 @@ export default {
 }
 
 .btn {
-  color: #42b983;
+  color: #000;
   position: relative;
   place-content: center;
   place-items: center;
   width: fit-content;
   border-radius: 99px;
   letter-spacing: 0.05em;
-  border: 1px solid #42b983;
+  border: 1px solid #000;
   text-decoration: none;
   text-transform: uppercase;
   margin-right: 10px;
@@ -69,7 +69,9 @@ export default {
 
 .btn:hover {
   cursor: pointer;
-  opacity: 0.8;
+  color: #fff;
+  background: #000;
+
 }
 
 .card {
