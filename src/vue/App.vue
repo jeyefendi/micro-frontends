@@ -1,13 +1,13 @@
 <template>
-  <div class="container">
-    <div class="card">
-      <h1>Vue Micro App</h1>
+    <div class="container">
+      <div class="card">
+        <h1>Vue Micro App</h1>
 
-      <h3>Vue Click Count: {{ count }}</h3>
+        <h3>Vue Click Count: {{ count }}</h3>
 
-      <button class="btn" @click="increment">Increment Count</button>
+        <button class="btn" @click="increment">Increment Count</button>
+      </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -15,26 +15,27 @@ export default {
   data() {
     return {
       count: window.store.count,
-    }
+    };
   },
   methods: {
     increment() {
-      window.store.increment()
+      window.store.increment();
     },
   },
   mounted() {
     window.store.subscribe(() => {
-      this.count = window.store.count
-    })
+      this.count = window.store.count;
+    });
   },
-}
+};
 </script>
 
 <style scoped>
 .container {
-  margin-top: 5rem;
   display: flex;
+  align-content: center;
   justify-content: center;
+  margin-top: 16em;
 }
 .card {
   text-align: center;
