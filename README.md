@@ -2,7 +2,8 @@
 
 Basic Micro Front End App
 
-* Micro Frontends
+* React
+* Vue
 * single-spa
 * Babel
 * webpack
